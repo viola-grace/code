@@ -9,7 +9,7 @@ int main()
 
     if(n==2)
     {
-        printf("yes");
+        printf("Yes");
         return 0;
     }
     for(iter=2;iter<n;iter++)
