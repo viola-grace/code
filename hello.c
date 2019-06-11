@@ -3,8 +3,8 @@
 
 int main()
 {
-    int n,iter;
-    scanf("%d",&n);
+    long int n,iter;
+    scanf("%ld",&n);
     for(iter=0;iter<n;iter++)
     {
         printf("Hello\n");
