@@ -31,5 +31,11 @@ int main() {
            c++;
        }
    }
+   if(c==0)
+   {
+       printf("Unique");
+   }
+   else{
     printf("%d",c);
+    }
 }
