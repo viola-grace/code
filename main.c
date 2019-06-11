@@ -1,20 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 int main()
 {
-    long int n;
-    scanf("%ld",&n);
-    if(n<0)
+    char st;
+    scanf("%c",&st);
+    if(st=='a'||st=='e'||st=='i'||st=='o'||st=='u')
     {
+        printf("Vowel");
+    }else if(st>='a'&&st<='z')
+    {
+        printf("Consonant");
+    }
+    else{
         printf("Invalid");
-    }else 
-    {
-        if(n%2==0)
-    {
-        printf("Even");
     }
-    else if(n%2!=0){
-        printf("Odd");
-    }
-    }
+    return 0;
 }
-    
