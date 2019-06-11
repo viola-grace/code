@@ -33,7 +33,7 @@ int main() {
    }
    if(c==0)
    {
-       printf("Unique");
+       printf("unique");
    }
    else{
     printf("%d",c);
