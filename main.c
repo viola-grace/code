@@ -6,11 +6,15 @@ int main()
     if(n<0)
     {
         printf("Invalid");
-    }else if(n%2==0)
+    }else 
+    {
+        if(n%2==0)
     {
         printf("Even");
     }
     else if(n%2!=0){
         printf("Odd");
     }
+    }
 }
+    
