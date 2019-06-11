@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int cmpfunc (const void * a, const void * b) {
-   return ( *(int*)a - *(int*)b );
-}
+
 int main()
 {
     long int n,iter,k=0,c=0,jter,max=0;
