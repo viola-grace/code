@@ -9,7 +9,7 @@ int main()
 
     if(n==2)
     {
-        printf("Yes");
+        printf("yes");
         return 0;
     }
     for(iter=2;iter<n;iter++)
@@ -25,9 +25,9 @@ int main()
     }
     if(flg==1)
     {
-        printf("Yes");
+        printf("yes");
     }else{
-        printf("No");
+        printf("no");
     }
 }
 
