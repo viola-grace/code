@@ -19,9 +19,9 @@ int main() {
   }
   if(flg==0)
   {
-      printf("NO");
+      printf("no");
   }else
   {
-      printf("YES");
+      printf("yes");
   }
 }
