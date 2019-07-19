@@ -12,11 +12,14 @@ int main()
     {
         for(j=i+1;j<n;j++)
         {
-            for(k=j+1;k<n;k++)
+            if(arr[i]<arr[j])
             {
-                if(arr[i]<arr[j]&&arr[j]<arr[k])
+                for(k=j+1;k<n;k++)
                 {
-                    count++;
+                    if(arr[j]<arr[k])
+                    {
+                        count++;
+                    }
                 }
             }
         }
