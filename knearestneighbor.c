@@ -4,7 +4,7 @@
 
 int main() {
    int n,ele,i,k,j,temp,p;
-   scanf("%d %d",&n,&ele);
+   scanf("%d %d\n",&n,&ele);
    int arr[n],sub[n],left[n],t;
    for(i=0;i<n;i++)
    {
