@@ -37,7 +37,11 @@ int main() {
    {
        for(j=0;j<m;j++)
         {
-            printf("%d ",res[i][j]);
+            printf("%d",res[i][j]);
+             if(j<m-1)
+            {
+                printf(" ");
+            }
         }
         printf("\n");
    }
