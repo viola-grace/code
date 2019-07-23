@@ -1,5 +1,6 @@
+#include<stdio.h>
 int main() {
-    int i,n,len=0,k=0;
+    int i,n,len=0,k=0,temp,j;
     int arr[1000],merge[1000];
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -10,6 +11,18 @@ int main() {
             len++;
         }
         int arr[1000]={0};
+    }
+    for(i=0;i<k;i++)
+    {
+        for(j=i+1;j<k;j++)
+        {
+            if(merge[i]>merge[j])
+            {
+                temp=merge[i];
+                merge[i]=merge[j];
+                merge[j]=temp;
+            }
+        }
     }
     for(i=0;i<k;i++)
     {
