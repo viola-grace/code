@@ -13,6 +13,10 @@ int main() {
     }
     for(i=0;i<k;i++)
     {
-        printf("%d ",merge[i]);
+        printf("%d",merge[i]);
+        if(i<k-1)
+        {
+            printf(" ");
+        }
     }
 }
